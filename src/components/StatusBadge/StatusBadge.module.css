@@ -1,0 +1,24 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.active {
+  background-color: #e7f7ef;
+  color: #157a45;
+}
+
+.inactive {
+  background-color: #f2f2f2;
+  color: #5c5c5c;
+}
+
+.on_leave {
+  background-color: #fff4e5;
+  color: #9a5b00;
+}

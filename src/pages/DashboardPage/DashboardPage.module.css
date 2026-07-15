@@ -1,0 +1,41 @@
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.section {
+  margin-top: 0.5rem;
+}
+
+.sectionTitle {
+  margin: 0 0 1rem;
+  font-size: 1.1rem;
+  color: var(--color-text);
+}
+
+.linkButton {
+  border: none;
+  background: transparent;
+  color: var(--color-primary);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.linkButton:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 1000px) {
+  .stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .stats {
+    grid-template-columns: 1fr;
+  }
+}
